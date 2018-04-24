@@ -1,0 +1,117 @@
+/* line 9, ../sass/style.sass */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/style.sass */
+body {
+  background-color: #ececec;
+  font-weight: 700;
+}
+
+/* line 17, ../sass/style.sass */
+.container {
+  background-color: #fff;
+}
+
+/* line 20, ../sass/style.sass */
+.navbar {
+  position: relative;
+  background: -webkit-linear-gradient(#d83442, #c62c41, #b82541);
+  background: -o-linear-gradient(#d83442, #c62c41, #b82541);
+  background: -moz-linear-gradient(#d83442, #c62c41, #b82541);
+  background: linear-gradient(#d83442, #c62c41, #b82541);
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+}
+/* line 31, ../sass/style.sass */
+.navbar span.icon-keyboard_arrow_left {
+  position: absolute;
+  left: 8px;
+  line-height: 34px;
+  font-size: 32px;
+}
+
+/* line 37, ../sass/style.sass */
+.list {
+  border-bottom: 1px solid #ececec;
+  padding: 15px 10px;
+  color: #5d5d5d;
+  font-size: 16px;
+  overflow: auto;
+}
+/* line 43, ../sass/style.sass */
+.list .list-heading {
+  display: inline-block;
+}
+/* line 45, ../sass/style.sass */
+.list .list-heading > * {
+  display: block;
+}
+/* line 49, ../sass/style.sass */
+.list .list-heading p {
+  margin: 0;
+  font-size: 14px;
+  color: #858585;
+  line-height: 1.6;
+}
+/* line 54, ../sass/style.sass */
+.list .list-footer {
+  float: right;
+}
+/* line 56, ../sass/style.sass */
+.list .list-footer p {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  color: #858585;
+  line-height: 1.6;
+  text-align: right;
+}
+/* line 64, ../sass/style.sass */
+.list .betName {
+  font-size: 18px;
+}
+/* line 66, ../sass/style.sass */
+.list span {
+  float: right;
+  color: #858585;
+  font-size: 14px;
+  line-height: 1.4;
+}
+/* line 71, ../sass/style.sass */
+.list span.lottery, .list span.oddsNumber {
+  color: #e93222;
+}
+/* line 73, ../sass/style.sass */
+.list span.lottery {
+  margin-top: 2.5vh;
+}
+/* line 75, ../sass/style.sass */
+.list span.splitNumber {
+  color: #008000;
+}
+/* line 77, ../sass/style.sass */
+.list h4 {
+  margin: 0;
+  display: inline-block;
+}
+
+/* line 81, ../sass/style.sass */
+button {
+  background-color: #e83b50;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin: 25px;
+  padding: 12px 0;
+  width: calc(100% - 25px*2);
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 0.125rem 0.325rem rgba(255, 86, 113, 0.61);
+}
